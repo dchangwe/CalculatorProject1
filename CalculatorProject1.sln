@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorProject1", "CalculatorProject1\CalculatorProject1.csproj", "{2F636B29-17D7-4D3B-99CA-07710B390F3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorProject1", "CalculatorProject1\CalculatorProject1.csproj", "{2F636B29-17D7-4D3B-99CA-07710B390F3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticsMean", "StatisticsMean\StatisticsMean.csproj", "{D75B8495-9D31-4FFB-8B24-FEF3B7374004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticsMeanTests", "StatisticsMeanTests\StatisticsMeanTests.csproj", "{230882A7-BCA6-4BED-8A55-B0762C2576F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{2F636B29-17D7-4D3B-99CA-07710B390F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F636B29-17D7-4D3B-99CA-07710B390F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F636B29-17D7-4D3B-99CA-07710B390F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75B8495-9D31-4FFB-8B24-FEF3B7374004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75B8495-9D31-4FFB-8B24-FEF3B7374004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75B8495-9D31-4FFB-8B24-FEF3B7374004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75B8495-9D31-4FFB-8B24-FEF3B7374004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{230882A7-BCA6-4BED-8A55-B0762C2576F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230882A7-BCA6-4BED-8A55-B0762C2576F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230882A7-BCA6-4BED-8A55-B0762C2576F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230882A7-BCA6-4BED-8A55-B0762C2576F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
