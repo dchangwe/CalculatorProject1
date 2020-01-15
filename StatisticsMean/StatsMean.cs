@@ -13,3 +13,4 @@ namespace StatisticsMean
             return result;
         }
     }
+    }
