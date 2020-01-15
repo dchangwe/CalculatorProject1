@@ -1,10 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using StatisticsCalculator.StatsCalculator;
+using StatisticsCalculator;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace StatisticsCalculator.StatsCalculator.Tests
+namespace StatisticsCalculator.Tests
 {
     [TestClass()]
     public class StatsCalculatorTests
