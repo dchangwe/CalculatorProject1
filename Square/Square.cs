@@ -7,12 +7,12 @@ namespace Square
         {
             public dynamic Square(dynamic a);
         }
-        public class Squared : ISquare
+        public class SqauredNumber : ISquare
         {
             public dynamic result;
             public dynamic Square(dynamic a)
             {
-                result = Squares.Squared(a);
+            result = Squared.Square(a);
                 return result;
             }
 

@@ -10,7 +10,7 @@ namespace StatsOperations
         public static double StandardDev(dynamic values)
         {
             double variance = StatsVariance.Variance(values);
-            double standardDev = SquareRoot.SqRoot(variance);
+            double standardDev = SquareRootNumber.Root(variance);
             return standardDev;
         }
     }

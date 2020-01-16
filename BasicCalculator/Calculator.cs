@@ -1,22 +1,21 @@
 ﻿using System;
-using operations;
-using Add;
+using BasicOperations;
 
+using Add;
 using Divide;
 
 using Multiply;
 
-using SquaredNumber;
+using Square;
 
-using SquareRootNumber;
-
-using CubeNumber;
-
+using SquareRoot;
 using Subtract;
+
+
 namespace BasicCalculator
 {
     
-        public class Calculator : IAdd, IDivide, IMultiply, ISquareNumber, ICube, ISquareRoot, ISubtract
+        public class Calculator : IAdd, IDivide, IMultiply, ISquare,  ISquareRoot, ISubtract
 
         {
 
@@ -26,33 +25,31 @@ namespace BasicCalculator
 
             Multiplying multiply = new Multiplying();
 
-            Squared square = new Squared();
+            SqauredNumber square = new SqauredNumber();
 
-            Cubed cube = new Cubed();
-
-            RootNumber root = new RootNumber();
-
-            Subtracting subtract = new Subtracting();
+            SqRoot root = new SqRoot();
+        Subtracting subtract = new Subtracting();
+            
 
             public dynamic result;
 
 
 
-            public dynamic Add(dynamic a, dynamic b)
+            public dynamic Sum(dynamic a, dynamic b)
 
             {
 
-                result = add.Add(a, b);
+                result = add.Sum(a, b);
 
                 return result;
 
             }
 
-            public dynamic Divide(dynamic a, dynamic b)
+            public dynamic Quotient(dynamic a, dynamic b)
 
             {
 
-                result = divide.Divide(a, b);
+                result = divide.Quotient(a, b);
 
                 return result;
 
@@ -78,11 +75,11 @@ namespace BasicCalculator
 
             }
 
-            public dynamic SquaredNumber(dynamic a)
+            public dynamic Square(dynamic a)
 
             {
 
-                result = square.SquaredNumber(a);
+            result = square.Square(a);
 
                 return result;
 
@@ -90,15 +87,7 @@ namespace BasicCalculator
 
 
 
-            public dynamic CubedNumber(dynamic a)
-
-            {
-
-                result = cube.CubedNumber(a);
-
-                return result;
-
-            }
+            
 
             public dynamic Root(dynamic a)
 

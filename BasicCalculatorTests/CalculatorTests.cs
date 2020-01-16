@@ -15,9 +15,9 @@ namespace BasicCalculator.Tests
 
         private readonly int c = 0;
 
-        private readonly double d = 7.5;
+        private readonly double d = 9.0;
 
-        private readonly double e = 3.4;
+        private readonly double e = 3.0;
 
         private readonly int f = 49;
 
@@ -29,7 +29,7 @@ namespace BasicCalculator.Tests
 
         {
 
-            Assert.AreEqual(15, calculator.Add(a, b));
+            Assert.AreEqual(15, calculator.Sum(a, b));
         }
 
        
@@ -39,7 +39,7 @@ namespace BasicCalculator.Tests
 
         {
 
-            Assert.AreEqual(2, calculator.Divide(a, b));
+            Assert.AreEqual(2, calculator.Quotient(a, b));
         }
 
         [TestMethod()]
@@ -69,23 +69,9 @@ namespace BasicCalculator.Tests
 
             int x = a * a;
 
-            int z = calculator.SquaredNumber(a);
+            int z = calculator.Square(a);
 
             Assert.AreEqual(x, z);
-
-        }
-
-        [TestMethod()]
-
-        public void CubeIntTest()
-
-        {
-
-            int x = a * a * a;
-
-            int y = calculator.CubedNumber(a);
-
-            Assert.AreEqual(x, y);
 
         }
 
@@ -105,7 +91,7 @@ namespace BasicCalculator.Tests
 
         {
 
-            Assert.AreEqual(10.9, calculator.Add(d, e));
+            Assert.AreEqual(12, calculator.Sum(d, e));
 
         }
 
@@ -115,7 +101,7 @@ namespace BasicCalculator.Tests
 
         {
 
-            Assert.AreEqual(4.1, calculator.Subtract(d, e));
+            Assert.AreEqual(6, calculator.Subtract(d, e));
 
         }
 
@@ -124,7 +110,7 @@ namespace BasicCalculator.Tests
         public void MultiplyDoubleTest()
 
         {
-            Assert.AreEqual(25.5, calculator.Multiply(d, e));
+            Assert.AreEqual(27, calculator.Multiply(d, e));
 
         }
 
@@ -134,7 +120,9 @@ namespace BasicCalculator.Tests
 
         {
 
-            Assert.AreEqual(2.20588, calculator.Divide(d, e));
+
+
+            Assert.AreEqual(3, calculator.Quotient(d, e));
 
         }
 
@@ -146,25 +134,13 @@ namespace BasicCalculator.Tests
 
             double x = d * d;
 
-            double z = calculator.SquaredNumber(d);
+            double z = calculator.Square(d);
 
             Assert.AreEqual(x, z);
 
         }
 
-        [TestMethod()]
-
-        public void CubeDoubleTest()
-
-        {
-
-            double x = e * e * e;
-
-            double z = calculator.CubedNumber(e);
-
-            Assert.AreEqual(x, z);
-
-        }
+       
 
 
         [TestMethod()]
@@ -173,7 +149,7 @@ namespace BasicCalculator.Tests
 
         {
 
-            Assert.AreEqual(1.843901, calculator.Root(e));
+            Assert.AreEqual(3, calculator.Root(d));
 
 
         }
@@ -184,7 +160,7 @@ namespace BasicCalculator.Tests
 
         {
 
-            Assert.ThrowsException<DivideByZeroException>(() => calculator.Divide(a, c));
+            Assert.ThrowsException<DivideByZeroException>(() => calculator.Quotient(a, c));
 
         }
     }

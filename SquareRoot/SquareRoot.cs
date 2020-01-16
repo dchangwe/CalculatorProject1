@@ -6,14 +6,14 @@ namespace SquareRoot
 {
    public interface ISquareRoot
    {
-       public dynamic SquareRoot(dynamic a);
+       public dynamic Root(dynamic a);
    }
    public class SqRoot : ISquareRoot
    {
       public dynamic result;
-      public dynamic SquareRoot(dynamic a)
+      public dynamic Root(dynamic a)
       {
-          result = Sqrt.SquareRoot(a);
+            result = SquareRootNumber.Root(a);
           return result;
       }
     }
