@@ -14,13 +14,18 @@ namespace BasicOperations.Tests
         [TestMethod()]
         public void SqRootTest()
         {
-            Assert.AreEqual(3, SquareRoot.SqRoot(a));
+
+            Assert.AreEqual(3, SquareRootNumber.Root(a));
+
         }
 
         [TestMethod()]
         public void SqRoot()
         {
-            Assert.AreEqual(5, SquareRoot.SqRoot(d));
+
+            Assert.AreEqual(5, SquareRootNumber.Root(d));
+
+          
         }
     }
 }

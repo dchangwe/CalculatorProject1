@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Helpers
 {
-    class Rounding
+
+   public class Rounding
     {
         public static dynamic RoundTwoDecimals(dynamic a)
         {

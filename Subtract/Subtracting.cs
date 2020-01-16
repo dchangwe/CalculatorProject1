@@ -7,7 +7,7 @@ namespace Subtract
     {
         public dynamic Subtract(dynamic a, dynamic b);
     }
-    public class Sub : ISubtract
+    public class Subtracting : ISubtract
     {
         public dynamic result;
         public dynamic Subtract(dynamic a, dynamic b)
