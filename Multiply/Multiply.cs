@@ -1,7 +1,7 @@
 ﻿using System;
 using BasicOperations;
 
-namespace Multiplication
+namespace Multiply
 {
     
         public interface IMultiply
@@ -14,7 +14,7 @@ namespace Multiplication
             public dynamic Multiply(dynamic a, dynamic b)
             {
 
-                result = (a, b);
+            result = Multiplication.Multiply(a, b);
                 return result;
             }
         }

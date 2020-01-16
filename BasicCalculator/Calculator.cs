@@ -4,7 +4,7 @@ using BasicOperations;
 using Add;
 using Divide;
 
-using Multiplication;
+using Multiply;
 
 using Square;
 

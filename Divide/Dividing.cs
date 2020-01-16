@@ -1,5 +1,6 @@
 ﻿using System;
 using BasicOperations;
+using Helpers;
 
 namespace Divide
 {
@@ -13,6 +14,7 @@ namespace Divide
 
         public dynamic Quotient(dynamic a, dynamic b)
         {
+            
             result = Division.Quotient(a, b);
             return result;
         }
