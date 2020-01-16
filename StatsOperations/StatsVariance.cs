@@ -14,7 +14,7 @@ namespace StatsOperations
             int i = 0;
             foreach (int a in values)
             {
-                squareDeviation[i] = Square.Squared(Subtraction.Subtract(a, mean));
+                squareDeviation[i] = Squared.Square(Subtraction.Subtract(a, mean));
                 i++;
             }
             double variance = StatisticsMean.Mean(squareDeviation);

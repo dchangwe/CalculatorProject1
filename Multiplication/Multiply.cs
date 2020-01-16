@@ -1,10 +1,9 @@
 ﻿using System;
 using BasicOperations;
 
-namespace Multiply
+namespace Multiplication
 {
-    public class Multiplication
-    {
+    
         public interface IMultiply
         {
             public dynamic Multiply(dynamic a, dynamic b);
@@ -15,11 +14,11 @@ namespace Multiply
             public dynamic Multiply(dynamic a, dynamic b)
             {
 
-                result = Multiplication.Multiply(a, b);
+                result = (a, b);
                 return result;
             }
         }
     }
 
         
-}
+
