@@ -10,7 +10,9 @@ namespace Helpers
         }
         public static int Length(double[] array)
         {
+
             return array.Length; 
+
         }
     }
 }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add", "..\Sum\Add\Add.csproj", "{A99D73BB-9786-4B7E-AFF7-7FA9DA78BC04}"
+
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicCalculator", "BasicCalculator\BasicCalculator.csproj", "{06A09F01-1D6F-4F25-A12A-8C051CED6DD9}"
 EndProject
@@ -48,6 +48,7 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add", "Add\Add.csproj", "{72B3E47E-1B84-42E2-A9E1-66202675FC88}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiply", "Multiply\Multiply.csproj", "{D06A1667-5D64-4589-9E07-22BC67E9A21F}"
+
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +148,7 @@ Global
 		{D06A1667-5D64-4589-9E07-22BC67E9A21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D06A1667-5D64-4589-9E07-22BC67E9A21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D06A1667-5D64-4589-9E07-22BC67E9A21F}.Release|Any CPU.Build.0 = Release|Any CPU
+
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
