@@ -1,4 +1,5 @@
 ﻿using System;
+using StatsOperations;
 
 namespace StatsStandardDeviation
 {
@@ -7,7 +8,7 @@ namespace StatsStandardDeviation
         public static dynamic result;
         public double StandardDev(dynamic arrayA)
         {
-            result = StatsOperations.StatsStandardDev.StandardDev(arrayA);
+            result =StatStandardDev.StandardDev(arrayA);
             return result;
         }
     }
