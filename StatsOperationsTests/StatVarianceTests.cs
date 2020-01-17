@@ -7,13 +7,13 @@ using System.Text;
 namespace StatsOperations.Tests
 {
     [TestClass()]
-    public class StatsVarianceTests
+    public class StatVarianceTests
     {
         [TestMethod()]
         public void VarianceTest()
         {
             int[] values = { 2, 4, 6, 8 };
-            var variance = StatsVariance.Variance(values);
+            var variance = StatVariance.Variance(values);
             Assert.AreEqual(5, Helpers.Rounding.RoundFiveDecimals(variance));
 
         }
@@ -21,7 +21,7 @@ namespace StatsOperations.Tests
         public void VarianceDoubleTest()
         {
             double[] values = { 2.0, 3.0, 4.0 };
-            var variance = StatsVariance.Variance(values);
+            var variance = StatVariance.Variance(values);
             Assert.AreEqual(0.66667, Helpers.Rounding.RoundFiveDecimals(variance));
 
         }
