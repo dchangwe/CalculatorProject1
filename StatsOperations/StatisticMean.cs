@@ -3,7 +3,7 @@ using BasicOperations;
 
 namespace StatsOperations
 {
-    public class StatisticsMean
+    public class StatisticMean
     {
         public static dynamic Mean(dynamic values)
         {
