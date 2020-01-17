@@ -1,4 +1,5 @@
 ﻿using System;
+using StatsOperations;
 
 namespace StatsVariance
 {
@@ -7,7 +8,7 @@ namespace StatsVariance
         public static dynamic result;
         public double Variance(dynamic arrayA)
         {
-            result = StatsOperations.StatsVariance.Variance(arrayA);
+            result = StatVariance.Variance(arrayA);
             return result;
         }
     }
