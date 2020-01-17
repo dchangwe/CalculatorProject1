@@ -15,14 +15,20 @@ namespace BasicOperations.Tests
         [TestMethod()]
         public void SquaredTest()
         {
+
             Assert.AreEqual(64, Squared.Square((double)a));
+
 
         }
 
         [TestMethod()]
         public void SqauredTest()
         {
+
             Assert.AreEqual(1.44, Squared.Square(b));
+
+            
+
         }
     }
 }
