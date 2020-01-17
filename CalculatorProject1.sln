@@ -50,6 +50,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiply", "Multiply\Multiply.csproj", "{D06A1667-5D64-4589-9E07-22BC67E9A21F}"
 
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpersTests", "HelpersTests\HelpersTests.csproj", "{59CA9841-22F4-4267-BBF8-62A72397738E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZScore", "ZScore\ZScore.csproj", "{C41EBB28-EE3A-451D-9BD0-AA89C92B404E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -148,6 +152,14 @@ Global
 		{D06A1667-5D64-4589-9E07-22BC67E9A21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D06A1667-5D64-4589-9E07-22BC67E9A21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D06A1667-5D64-4589-9E07-22BC67E9A21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59CA9841-22F4-4267-BBF8-62A72397738E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CA9841-22F4-4267-BBF8-62A72397738E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CA9841-22F4-4267-BBF8-62A72397738E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CA9841-22F4-4267-BBF8-62A72397738E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41EBB28-EE3A-451D-9BD0-AA89C92B404E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41EBB28-EE3A-451D-9BD0-AA89C92B404E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41EBB28-EE3A-451D-9BD0-AA89C92B404E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41EBB28-EE3A-451D-9BD0-AA89C92B404E}.Release|Any CPU.Build.0 = Release|Any CPU
 
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution

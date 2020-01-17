@@ -7,13 +7,13 @@ using System.Text;
 namespace StatsOperations.Tests
 {
     [TestClass()]
-    public class StatisticsMeanTests
+    public class StatisticMeanTests
     {
         [TestMethod()]
         public void MeanIntTest()
         {
             int[] values = { 10, 20, 30 };
-            var mean = StatisticsMean.Mean(values);
+            var mean = StatisticMean.Mean(values);
             Assert.AreEqual(20, mean);
 
         }
@@ -21,7 +21,7 @@ namespace StatsOperations.Tests
         public void MeanDoubleTest()
         {
             double[] values = { 2.0, 3.0, 4.0 };
-            var mean = StatisticsMean.Mean(values);
+            var mean = StatisticMean.Mean(values);
             Assert.AreEqual(3, mean);
 
         }
